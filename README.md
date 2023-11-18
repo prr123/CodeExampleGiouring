@@ -7,6 +7,11 @@ Code examples for library giouring.
 program that deiplayse the library version and the linux kernel version.  
 usage: ./kernelVer ver/verion | kernel  
 
+## gioSetup
+
+program that uses giouring equivalen of liburing to set up ans subsequently release submission and completion queues with n entries.  
+usage: ./gioSetup [/entries=n] /dbg  
+
 ## gioSimpleRead
 
 program that performs two reads of a file:  
